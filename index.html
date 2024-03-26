@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site em Manutenção</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .maintenance-message {
+      text-align: center;
+    }
+    .logo {
+      width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    /* Media Query para dispositivos com largura máxima de 600px */
+    @media only screen and (max-width: 600px) {
+      .logo {
+        width: 100px;
+      }
+      .maintenance-message {
+        padding: 0 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="maintenance-message">
+    <h2>Desculpe, estamos em manutenção!</h2>
+    <p>O nosso site está temporariamente indisponível enquanto realizamos algumas atualizações. Por favor, volte mais tarde.</p>
+  </div>
+</body>
+</html>
